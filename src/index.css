@@ -8,6 +8,17 @@ body,
 * {
   cursor: none !important;
 }
+.Syne {
+  font-family: 'Syne', sans-serif;
+}
+
+.DM-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.Fira-code {
+  font-family: "Fira-code", sans-serif;
+}
 
 body {
   background-color: #070707;
@@ -51,4 +62,8 @@ body {
     transition-property: transform;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 150ms;
+}
+
+.animate-pulse-dot {
+    animation: pulse-dot 2s infinite ease-in-out;
 }
