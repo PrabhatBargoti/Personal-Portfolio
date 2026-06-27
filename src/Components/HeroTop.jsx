@@ -18,7 +18,7 @@ const HeroTop = () => {
             <span className="w-2 h-2 rounded-full bg-[#caff4c]" id='indicator'></span>
             <span className='text-[#caff4c] text-[12px] leading-[1.2] tracking-widest font-medium'>Available for work</span>
         </div>
-        <h1 className='uppercase text-[#ede9e1] text-9xl leading-[0.82] tracking-[-0.03em] font-extrabold Syne select-none'>
+        <h1 className='uppercase text-[#ede9e1] md:text-9xl leading-[0.82] tracking-[-0.03em] font-extrabold Syne select-none text-6xl'>
             Prabhat 
             <br />
             Bargoti

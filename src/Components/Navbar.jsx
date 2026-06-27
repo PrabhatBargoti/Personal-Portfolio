@@ -1,20 +1,49 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { RiMenuFill, RiCloseLine } from '@remixicon/react'
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false)
+
   return (
-    <div className='fixed top-0 w-full z-50 bg-background\/80 backdrop-blur-md pt-1.5 pb-1.5 border-b border-hairline-border flex justify-between items-center max-w-full pl-10 pr-10'>
-        <div className="font-sans text-[32px] leading-[-0.05em] font-semibold text-acid ">PB</div>
-        <div className='hidden justify-between w-100 md:flex text-[13px] leading-[1.2] tracking-widest font-medium font-[FiraCode]'>
-            <a href="#About" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300 '>About</a>
-            <a href="#Projects" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300 '>Projects</a>
-            <a href="#Skills" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300'>Skills</a>
-            <a href="#Experience" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300'>Experience</a>
-            <a href="#Contact" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300'>Contact</a>
+    <nav className='fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-xl py-3 border-b border-hairline-border px-6 md:px-10'>
+      <div className='max-w-7xl mx-auto flex justify-between items-center'>
+        
+        <div className="font-sans text-[32px] font-semibold text-acid tracking-tight">
+          PB
         </div>
-            <button className='rounded-xs bg-white pl-7 pr-7 text-[#31302B] flex-wrap font-[FiraCode] pt-1.5 pb-1.5 duration-200 transition-transform active:scale-[0.95] select-none'>
-              Hire Me
-            </button>
-    </div>
+
+        <div className='hidden md:flex items-center gap-8 text-[13px] tracking-widest font-medium font-[FiraCode]'>
+          <a href="#About" className='text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>About</a>
+          <a href="#Projects" className='text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Projects</a>
+          <a href="#Skills" className='text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Skills</a>
+          <a href="#Experience" className='text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Experience</a>
+          <a href="#Contact" className='text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Contact</a>
+        </div>
+
+        <div className='flex items-center gap-4'>
+          <button className='rounded-xs bg-white px-5 sm:px-7 py-1.5 text-[#31302B] font-[FiraCode] text-[13px] md:text-[14px] duration-200 transition-transform active:scale-[0.95] select-none'>
+            Hire Me
+          </button>
+
+          <div className='md:hidden flex items-center' onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? (
+              <RiCloseLine className='text-white cursor-pointer' size={24} />
+            ) : (
+              <RiMenuFill className='text-white cursor-pointer' size={24} />
+            )}
+          </div>
+        </div>
+
+      </div>
+
+      <div className={`${isOpen ? 'flex' : 'hidden'} md:hidden absolute top-full left-0 w-full bg-background/95 backdrop-blur-xl border-b border-hairline-border flex-col items-center py-6 gap-6 font-[FiraCode] text-[16px]`}>
+        <a href="#About" onClick={() => setIsOpen(false)} className='text-[#CAC2BD] hover:text-[#FFFFFF]'>About</a>
+        <a href="#Projects" onClick={() => setIsOpen(false)} className='text-[#CAC2BD] hover:text-[#FFFFFF]'>Projects</a>
+        <a href="#Skills" onClick={() => setIsOpen(false)} className='text-[#CAC2BD] hover:text-[#FFFFFF]'>Skills</a>
+        <a href="#Experience" onClick={() => setIsOpen(false)} className='text-[#CAC2BD] hover:text-[#FFFFFF]'>Experience</a>
+        <a href="#Contact" onClick={() => setIsOpen(false)} className='text-[#CAC2BD] hover:text-[#FFFFFF]'>Contact</a>
+      </div>
+    </nav>
   )
 }
 
