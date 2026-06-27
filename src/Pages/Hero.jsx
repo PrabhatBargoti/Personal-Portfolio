@@ -4,7 +4,7 @@ import HeroBottom from '../Components/HeroBottom'
 
 const Hero = () => {
   return (
-    <div href="#About" className='relative h-221 w-full flex flex-col justify-center items-start overflow-hidden ml-10 '>
+    <div className='relative h-221 w-full flex flex-col justify-center items-start overflow-hidden ml-10'>
       <HeroTop />
       <HeroBottom />
     </div>

@@ -8,7 +8,7 @@ const Navbar = () => {
             <a href="#About" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300 '>About</a>
             <a href="#Projects" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300 '>Projects</a>
             <a href="#Skills" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300'>Skills</a>
-            <a href="#Experiece" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300'>Experience</a>
+            <a href="#Experience" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300'>Experience</a>
             <a href="#Contact" className='text-[#CAC2BD] hover:text-[#FFFFFF] hover:transition-colors duration-300'>Contact</a>
         </div>
             <button className='rounded-xs bg-white pl-7 pr-7 text-[#31302B] flex-wrap font-[FiraCode] pt-1.5 pb-1.5 duration-200 transition-transform active:scale-[0.95] select-none'>
