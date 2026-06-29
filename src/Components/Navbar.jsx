@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className='fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-xl py-3 border-b border-hairline-border px-6 md:px-10'>
+    <nav className='fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-lg py-3 border-b border-hairline-border px-6 md:px-10'>
       <div className='max-w-7xl mx-auto flex justify-between items-center'>
         
         <div
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
         <div className='flex items-center gap-4'>
-          <button className='rounded-xs bg-white px-5 sm:px-7 py-1.5 text-[#31302B] font-[FiraCode] text-[13px] md:text-[14px] duration-200 transition-transform active:scale-[0.95] select-none'>
+          <button onClick={() => scrollToSection('Contact')} className='rounded-xs bg-white px-5 sm:px-7 py-1.5 text-[#31302B] font-[FiraCode] text-[13px] md:text-[14px] duration-200 transition-transform active:scale-[0.95] select-none'>
             Hire Me
           </button>
 
@@ -40,11 +40,11 @@ const Navbar = () => {
       </div>
 
       <div className={`${isOpen ? 'flex' : 'hidden'} md:hidden absolute top-full left-0 w-full bg-black backdrop-blur-2xl border-b border-hairline-border flex-col items-center py-6 gap-6 font-[FiraCode] text-[16px]`}>
-        <a onClick={() => scrollToSection('About')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>About</a>
-        <a onClick={() => scrollToSection('Skills')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Skills</a>
-        <a onClick={() => scrollToSection('Experience')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Experience</a>
-        <a onClick={() => scrollToSection('Projects')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Projects</a>
-        <a onClick={() => scrollToSection('Contact')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Contact</a>
+        <a onClick={() => { scrollToSection('About'); setIsOpen(false) }} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>About</a>
+        <a onClick={() => { scrollToSection('Skills'); setIsOpen(false) }} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Skills</a>
+        <a onClick={() => { scrollToSection('Experience'); setIsOpen(false) }} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Experience</a>
+        <a onClick={() => { scrollToSection('Projects'); setIsOpen(false) }} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Projects</a>
+        <a onClick={() => { scrollToSection('Contact'); setIsOpen(false) }} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Contact</a>
       </div>
     </nav>
   )

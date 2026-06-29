@@ -27,11 +27,11 @@ const AboutText = () => {
         </p>
       </div>
         <button
-  onClick={() => scrollToSection('Contact')}
-  className='w-fit Fira uppercase text-[15px] tracking-widest text-black bg-[#caff4c] px-10 py-3.5 rounded-xs mt-6 active:scale-[0.95] transition-transform duration-150 select-none cursor-pointer'
->
-  Let's Connect
-</button>
+          onClick={() => scrollToSection('Contact')}
+          className='w-fit Fira uppercase text-[15px] tracking-widest text-black bg-[#caff4c] px-10 py-3.5 rounded-xs mt-6 active:scale-[0.95] transition-transform duration-150 select-none cursor-pointer mb-5'
+          >
+          Let's Connect
+        </button>
 
     </div>
   )

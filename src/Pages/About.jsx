@@ -23,7 +23,7 @@ const About = () => {
           // About Me
         </span>
       </div>
-      <div className='flex md:flex-row flex-col mt-5 justify-center items-center '>
+      <div className='flex md:flex-row ml-5 md:ml-0 flex-col mt-5 justify-center items-center'>
       <AboutImg />
       <AboutText />
       </div>
