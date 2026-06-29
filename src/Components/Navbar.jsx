@@ -17,9 +17,9 @@ const Navbar = () => {
 
         <div className='hidden md:flex items-center gap-8 text-[13px] tracking-widest font-medium font-[FiraCode]'>
           <a onClick={() => scrollToSection('About')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>About</a>
-          <a onClick={() => scrollToSection('Projects')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Projects</a>
           <a onClick={() => scrollToSection('Skills')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Skills</a>
           <a onClick={() => scrollToSection('Experience')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Experience</a>
+          <a onClick={() => scrollToSection('Projects')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Projects</a>
           <a onClick={() => scrollToSection('Contact')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Contact</a>
         </div>
 
@@ -39,11 +39,11 @@ const Navbar = () => {
 
       </div>
 
-      <div className={`${isOpen ? 'flex' : 'hidden'} md:hidden absolute top-full left-0 w-full bg-background/95 backdrop-blur-xl border-b border-hairline-border flex-col items-center py-6 gap-6 font-[FiraCode] text-[16px]`}>
+      <div className={`${isOpen ? 'flex' : 'hidden'} md:hidden absolute top-full left-0 w-full bg-black backdrop-blur-2xl border-b border-hairline-border flex-col items-center py-6 gap-6 font-[FiraCode] text-[16px]`}>
         <a onClick={() => scrollToSection('About')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>About</a>
-        <a onClick={() => scrollToSection('Projects')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Projects</a>
         <a onClick={() => scrollToSection('Skills')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Skills</a>
         <a onClick={() => scrollToSection('Experience')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Experience</a>
+        <a onClick={() => scrollToSection('Projects')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Projects</a>
         <a onClick={() => scrollToSection('Contact')} className='cursor-pointer text-[#CAC2BD] hover:text-[#FFFFFF] transition-colors duration-300'>Contact</a>
       </div>
     </nav>
