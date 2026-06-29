@@ -8,6 +8,7 @@ import Skills from './Pages/Skills'
 import Experience from './Pages/Experience'
 import Project from './Pages/Project'
 import Connection from './Pages/Connection'
+import Footer from './Pages/Footer'
 
 const App = () => {
   useLenis()
@@ -22,6 +23,7 @@ const App = () => {
       <Experience />
       <Project />
       <Connection />
+      <Footer />
     </div>
   )
 }

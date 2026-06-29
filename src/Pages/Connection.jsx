@@ -16,7 +16,7 @@ const Connection = () => {
   })
 
   return (
-    <div id='Contact' className='scroll-mt-20 relative w-full'>
+    <div id='Contact' className='scroll-mt-20 relative w-full mb-10'>
       <div className='max-w-7xl mx-auto px-6 md:px-10 flex flex-col justify-center items-start'>
         <span id='Contact-Label' className='text-[#cac6bd] hover:underline transition-all duration-100 font-light text-[25px]'>
           // Contact
