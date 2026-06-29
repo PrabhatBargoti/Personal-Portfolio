@@ -5,6 +5,9 @@ import Hero from './Pages/Hero'
 import About from './Pages/About'
 import useLenis from './Hook/useLenis'
 import Skills from './Pages/Skills'
+import Experience from './Pages/Experience'
+import Project from './Pages/Project'
+import Connection from './Pages/Connection'
 
 const App = () => {
   useLenis()
@@ -16,6 +19,9 @@ const App = () => {
       <Hero />
       <About />
       <Skills />
+      <Experience />
+      <Project />
+      <Connection />
     </div>
   )
 }

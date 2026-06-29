@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillsTop = () => {
   return (
-    <div className='flex flex-col items-center text-center gap-4 mt-10'>
+    <div className='flex flex-col items-center text-center gap-4'>
       <h2 className='Syne text-5xl md:text-7xl font-black uppercase tracking-tight text-white'>
         <span className='text-[#caff4c]'>§</span> 03 / Skills
       </h2>

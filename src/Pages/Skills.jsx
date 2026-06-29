@@ -7,19 +7,19 @@ import SkillsBottom from '../Components/Skills/SkillsBottom'
 const Skills = () => {
   useGSAP(() => {
     gsap.from('#skills-label', {
-      y: -4,
-      duration: 0.5,
-      repeat: -1,
-      yoyo: true,
+        y: 4,
+        duration: 0.5,
+        y: -4,
+        repeat: -1,
+        yoyo: true,
     })
   })
 
   return (
     <div id='Skills' className='scroll-mt-10 relative w-full'>
-      <div className='max-w-7xl mx-auto px-6 md:px-10'>
+      <div id='skills-label' className='max-w-7xl mx-auto px-6 md:px-10'>
         <span
-          id='skills-label'
-          className='font-[Syne] text-[#cac6bd] font-light text-[20px] mt-10 inline-block'
+          className='text-[#cac6bd] hover:underline transition-all duration-100 font-light text-[25px]'
         >
           // Skills
         </span>
