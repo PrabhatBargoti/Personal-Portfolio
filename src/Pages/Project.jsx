@@ -1,6 +1,8 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import React from 'react'
+import ProjectTop from '../Components/Projects/ProjectTop'
+import ProjectCard from '../Components/Projects/ProjectCard'
 
 const Project = () => {
   useGSAP(()=>{
@@ -19,6 +21,16 @@ const Project = () => {
         <span id='Project-lable' className='text-[#cac6bd] hover:underline transition-all duration-100 font-light text-[25px]'>
           // Project
         </span>
+      </div>
+      <div className='flex flex-col items-center w-full py-10 md:py-16 gap-4 ml-5 md:ml-0'>
+        <ProjectTop />
+        <ProjectCard
+          number="01"
+          title="Coming soon"
+          // image={Profile}
+          techStack={['Soon', 'Soon', 'Soon']}
+          link=""
+        />
       </div>
     </div>
   )

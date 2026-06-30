@@ -16,7 +16,7 @@ const Skills = () => {
   })
 
   return (
-    <div id='Skills' className='scroll-mt-10 relative w-full'>
+    <div id='Skills' className='scroll-mt-20 relative w-full'>
       <div id='skills-label' className='max-w-7xl mx-auto px-6 md:px-10'>
         <span
           className='text-[#cac6bd] hover:underline transition-all duration-100 font-light text-[25px]'

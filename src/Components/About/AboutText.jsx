@@ -9,7 +9,7 @@ const AboutText = () => {
           I'm Prabhat —
         </h2>
         <p className='Syne text-xl text-[#CAC2BD] leading-relaxed'>
-          a full-stack developer 1.5 years into turning a web dev foundation into something sharper: AI engineering.
+          a full-stack developer turning a web dev foundation into something sharper: AI engineering.
         </p>
       </div>
 

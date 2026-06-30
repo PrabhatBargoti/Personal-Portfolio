@@ -4,7 +4,7 @@ const ConnectionTop = () => {
   return (
     <div className='flex flex-col items-center text-center gap-8 px-6'>
       <span className='Fira text-[11px] tracking-[0.3em] text-acid uppercase'>
-        § 04 / Connection
+        § / Contact
       </span>
       <h2 className='Syne font-black uppercase leading-[1.05] text-4xl md:text-8xl'>
         <span className='text-white'>Let's Build<br />Something<br /></span>

@@ -1,7 +1,6 @@
 import React from 'react'
 
 const links = [
-  { label: 'Instagram',  href: 'https://www.instagram.com/itsz.prabhat/',  color: 'text-[#ede9e1]' },
   { label: 'GitHub',   href: 'https://github.com/PrabhatBargoti',   color: 'text-[#ede9e1]' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/prabhat-bargoti-656b4235a/', color: 'text-[#ede9e1]' },
   { label: 'Twitter',  href: 'https://x.com/PrabhatBaroti',  color: 'text-[#ede9e1]' },
