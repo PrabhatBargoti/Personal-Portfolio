@@ -1,16 +1,70 @@
-# React + Vite
+# Portfolio — Prabhat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A cinematic, dark-editorial personal portfolio built to showcase my transition from full-stack web development into AI engineering. Designed with a focus on smooth motion, bold typography, and minimal distraction.
 
-Currently, two official plugins are available:
+🔗 **Live:** [your-deployed-url.vercel.app](https://personal-portfolio-rosy-sigma-45.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Single-page scroll layout with smooth, buttery navigation
+- Custom-built rotating tech-stack visualization
+- Hover-reveal project cards with image transitions
+- Fully responsive across mobile, tablet, and desktop
+- Drag-to-scroll experience slider with snap behavior
+- GSAP-powered micro-animations throughout
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Category       | Tech |
+|-----------------|------|
+| Framework       | React (Vite) |
+| Styling         | Tailwind CSS v4 |
+| Animation       | GSAP |
+| Smooth Scroll   | Lenis |
+| Icons           | Remix Icons |
+| Fonts           | Syne, Fira Code |
+| Deployment      | Vercel |
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── Components/
+│   ├── About/
+│   ├── Skills/
+│   ├── Experience/
+│   ├── Projects/
+│   └── Connection/
+├── Hook/
+│   └── useLenis.js
+├── Pages/
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Experience.jsx
+│   ├── Projects.jsx
+│   └── Connection.jsx
+├── Navbar.jsx
+├── Footer.jsx
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+
+## 📬 Contact
+
+**Prabhat**
+- Email: hello@yourdomain.dev
+- GitHub: [github.com/yourusername](https://github.com/PrabhatBargoti)
+- LinkedIn: [linkedin.com/in/yourusername](https://www.linkedin.com/in/prabhat-bargoti-656b4235a/)
+
+---
+
+© 2026 Prabhat — Built with precision.
