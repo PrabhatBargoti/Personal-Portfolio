@@ -2,7 +2,7 @@
 
 A cinematic, dark-editorial personal portfolio built to showcase my transition from full-stack web development into AI engineering. Designed with a focus on smooth motion, bold typography, and minimal distraction.
 
-🔗 **Live:** [your-deployed-url.vercel.app]([https://personal-portfolio-rosy-sigma-45.vercel.app/](https://personal-portfolio-rosy-sigma-45.vercel.app/))
+🔗 **Live:** ([https://personal-portfolio-rosy-sigma-45.vercel.app/](https://personal-portfolio-rosy-sigma-45.vercel.app/))
 
 ---
 
