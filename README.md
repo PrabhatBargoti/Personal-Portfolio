@@ -2,7 +2,7 @@
 
 A cinematic, dark-editorial personal portfolio built to showcase my transition from full-stack web development into AI engineering. Designed with a focus on smooth motion, bold typography, and minimal distraction.
 
-🔗 **Live:** [your-deployed-url.vercel.app](https://personal-portfolio-rosy-sigma-45.vercel.app/)
+🔗 **Live:** [your-deployed-url.vercel.app]([https://personal-portfolio-rosy-sigma-45.vercel.app/](https://personal-portfolio-rosy-sigma-45.vercel.app/))
 
 ---
 
@@ -61,9 +61,9 @@ src/
 ## 📬 Contact
 
 **Prabhat**
-- Email: hello@yourdomain.dev
-- GitHub: [github.com/yourusername](https://github.com/PrabhatBargoti)
-- LinkedIn: [linkedin.com/in/yourusername](https://www.linkedin.com/in/prabhat-bargoti-656b4235a/)
+- Email: Prabhat78961@gmail.com
+- GitHub: (https://github.com/PrabhatBargoti)
+- LinkedIn: (https://www.linkedin.com/in/prabhat-bargoti-656b4235a/)
 
 ---
 
